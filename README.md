@@ -40,9 +40,8 @@ Enter and view student marks.
 
 Define and manage fee structures.
 
-Track fee payments.
-
 Interface Files
+
 
 Core Classes
 
@@ -50,7 +49,9 @@ Project.java: Main class for launching the application.
 
 Conn.java: Database connection class.
 
+
 Student Management Interfaces
+
 
 AddStudent.java: Interface for adding new students.
 
@@ -60,6 +61,7 @@ StudentLeave.java: Interface for managing student leaves.
 
 StudentLeaveDetails.java: Interface for viewing student leave details.
 
+
 Teacher Management Interfaces
 
 AddTeacher.java: Interface for adding new teachers.
@@ -67,6 +69,7 @@ AddTeacher.java: Interface for adding new teachers.
 TeacherDetails.java: Interface for viewing teacher details.
 
 TeacherLeave.java: Interface for managing teacher leaves.
+
 
 Course and Examination Management Interfaces
 
@@ -76,9 +79,11 @@ EnterMarks.java: Interface for entering student marks.
 
 Marks.java: Interface for viewing student marks.
 
+
 Fee Management Interfaces
 
 FeeStructure.java: Interface for defining and managing fee structures.
+
 
 Additional Interfaces
 
@@ -88,6 +93,7 @@ Login.java: Login interface for user authentication.
 
 Splash.java: Splash screen for the application.
 
+
 Development Tools
 
 Programming Language: Java (Swing for UI design)
@@ -96,4 +102,42 @@ Database: MySQL for data storage
 
 IDE: Apache NetBeans
 
-Frameworks/Libraries: Java Swing, JFrame, AWT
+Frameworks/Libraries: Java Swing, JFrame, AWT 
+
+
+Installation
+
+1.Clone the repository: git clone https://github.com/yourusername/university-management-system.git
+
+2.Set up the database:
+
+     Import the provided SQL script to create and initialize the database.
+
+     Update the Conn.java file with your MySQL credentials.
+
+3.Open the project in Apache NetBeans.
+
+4.Build and run the application.
+
+
+Contribution
+
+1.Contributions are welcome! Please follow these steps:
+
+2.Fork the repository.
+
+3.Create a new branch for your feature or bug fix: git checkout -b feature-name
+
+4.Commit your changes and push them to your branch: git commit -m "Description of changes"
+git push origin feature-name
+
+5.Submit a pull request.
+
+
+License
+
+Feel free to modify the project to meet your needs. Contributions to improve the application are appreciated!
+
+
+
+
