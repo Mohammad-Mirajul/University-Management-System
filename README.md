@@ -1,6 +1,6 @@
 # University-Management-System
 
-This project is a University EUniversity Management System designed as a desktop-based application. It provides a comprehensive solution for managing students, teachers, courses, examinations, and fees through a Java-based user interface.
+This project is designed as a desktop-based application. It provides a comprehensive solution for managing students, teachers, courses, examinations, and fees through a Java-based user interface.
 
 This is my first project uploaded to GitHub, and I am excited to share it with the community! Any feedback or suggestions are greatly appreciated.
 
